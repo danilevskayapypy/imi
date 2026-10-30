@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Небольшая игра на скорость реакции">
+  <title>Поймай звезду — мини-игра</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/game.js" defer></script>
+</head>
+<body>
+  <main class="game-card">
+    <div class="eyebrow">МИНИ-ИГРА</div>
+    <h1>Поймай звезду <span>✦</span></h1>
+    <p class="intro">Нажимай на звезду как можно быстрее и набери максимум очков за 30 секунд.</p>
+
+    <div class="stats" aria-live="polite">
+      <div class="stat"><span class="stat-label">Очки</span><strong id="score">0</strong></div>
+      <div class="stat"><span class="stat-label">Время</span><strong><span id="time">30</span><small> сек</small></strong></div>
+      <div class="stat"><span class="stat-label">Рекорд</span><strong id="best">0</strong></div>
+    </div>
+
+    <section class="arena" id="arena" aria-label="Игровое поле">
+      <img class="decoration" src="img/star-world.svg" alt="Иллюстрация звёздного неба">
+      <button class="target" id="target" type="button" aria-label="Поймать звезду" hidden>✦</button>
+      <div class="message" id="message">Готов попробовать?</div>
+    </section>
+
+    <button class="start-button" id="start" type="button">Начать игру</button>
+    <p class="hint">Совет: звезда появляется в случайном месте на поле.</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="title">
+  <title id="title">Звёздное небо</title>
+  <defs>
+    <radialGradient id="glow"><stop stop-color="#b9a4ff" stop-opacity=".55"/><stop offset="1" stop-color="#b9a4ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <circle cx="160" cy="100" r="170" fill="url(#glow)"/>
+  <circle cx="760" cy="330" r="210" fill="url(#glow)"/>
+  <g fill="#fff1c2" opacity=".9">
+    <circle cx="80" cy="70" r="2"/><circle cx="220" cy="180" r="2.5"/><circle cx="340" cy="55" r="1.8"/>
+    <circle cx="470" cy="145" r="2"/><circle cx="620" cy="70" r="2.5"/><circle cx="820" cy="110" r="2"/>
+    <circle cx="720" cy="230" r="1.8"/><circle cx="120" cy="310" r="2"/><circle cx="390" cy="350" r="2.5"/>
+    <circle cx="540" cy="285" r="1.8"/><circle cx="860" cy="370" r="2"/>
+  </g>
+  <g fill="#d9ccff" opacity=".8">
+    <path d="M300 230l7 18 18 7-18 7-7 18-7-18-18-7 18-7z"/>
+    <path d="M690 115l5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/>
+    <path d="M145 190l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+  </g>
+</svg>
